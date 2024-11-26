@@ -3,7 +3,7 @@ import yfinance as yf
 import pandas as pd
 import os
 import time
-from database import save_to_database  # Ensure this is imported
+from Database import save_to_database  # Ensure this is imported
 
 class DataRetrieval:
     def __init__(self, symbol, interval="1m", csv_file="data.csv"):

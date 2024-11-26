@@ -3,8 +3,8 @@ from PyQt5 import QtWidgets, QtGui, QtCore
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
-from data_retrieval import DataRetrieval
-from database import save_to_database
+from Datafetch import DataRetrieval
+from Database import save_to_database
 
 class StockApp(QtWidgets.QWidget):
     def __init__(self):
